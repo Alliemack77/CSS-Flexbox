@@ -4,14 +4,15 @@
     padding: 0;
 }
 
-
+/* Mobile */
 /* Flex-Container */
 .nav__list {
     display: flex;
     flex-direction: column;
-    background-color: lightblue;
+    background-color: lightblue; /* Solves the problem with whitespace at larger screen sizes*/
     list-style: none;
     font-size: 1.5rem;
+    
 }
 
 
@@ -20,7 +21,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: lightblue;
+    background-color: lightblue; /* Gives each flex item a bg color*/
     color: white;
     padding: 1rem 1.5rem;
 }
