@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px purple;
+    width: 75%;
+    padding: 5rem;
+    margin: 25% auto;
+
+}
+
+.child {
+    border: solid 2px lime;
+    width: 50%;
+    padding: 5rem;
+    text-align: center;
+}

@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    border: solid 2px rgb(229, 41, 247);
+    flex: 1;
+    list-style: none;
+    background-color: rgb(255, 154, 136);
+    color: white;
+    text-align: center;
+
+}

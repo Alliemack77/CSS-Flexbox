@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+li {
+    flex: 1;
+    list-style: none;
+    background-color: royalblue;
+    border: solid 2px lightblue;
+    border-radius: 30px;
+    color: white;
+    padding: 2rem 4rem;
+    margin: 1rem 3rem;
+}
