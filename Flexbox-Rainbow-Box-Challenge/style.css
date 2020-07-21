@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Mobile --> 600px */
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: 0 auto;
+    color: white;
+}
+
+.box {
+    padding: 1.5rem 2rem; 
+}
+
+.one {
+    background-color: red;
+}
+
+.two {
+    background-color: orange;
+}
+
+.three {
+    background-color: yellow;
+}
+
+.four {
+    background-color: green;
+}
+
+.five {
+    background-color: blue;
+}
+
+.six {
+    background-color: indigo;
+}
+
+.seven {
+    background-color: violet;
+}
+
+
+/* Tablet 601 --> 800px */
+@media screen and (max-width: 800px) and (min-width: 601px) {
+
+    .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .one, 
+    .two, 
+    .six, 
+    .seven {
+        flex: 100%;
+    }
+
+    .three, 
+    .four, 
+    .five {
+        flex: 33%;
+    }
+}
+
+
+/* Desktop 801px + */
+@media screen and (min-width: 801px) {
+    
+    .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .one, 
+    .two, 
+    .six, 
+    .seven {
+        flex: 50%;
+    }
+
+    .three, 
+    .four, 
+    .five {
+        flex: 33%;
+    }
+}
+

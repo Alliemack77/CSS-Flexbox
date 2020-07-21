@@ -7,7 +7,6 @@
 ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 li {
@@ -20,3 +19,4 @@ li {
     padding: 2rem 4rem;
     margin: 1rem 3rem;
 }
+
