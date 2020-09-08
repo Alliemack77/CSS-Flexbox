@@ -6,8 +6,10 @@
 
 .nav__list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    gap: 2rem;
     list-style: none;
     padding: 1rem 2rem;
     
