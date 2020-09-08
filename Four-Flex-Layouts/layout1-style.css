@@ -11,8 +11,7 @@
     align-items: center;
     gap: 2rem;
     list-style: none;
-    padding: 1rem 2rem;
-    
+    padding: 1rem 2rem; 
 }
 
 .nav__item {

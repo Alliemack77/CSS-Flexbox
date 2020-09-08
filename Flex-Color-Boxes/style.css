@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*parent -- flex-container*/
+.container {
+   
+    width: 85%;
+    max-width: 900px;
+    margin: 10% auto;
+    padding: 5rem;
+    background-color: grey;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+/* child -- flex-item*/
+.item {
+    padding: 5rem;
+    height: 100px;
+    width: 100px;
+    color: white;
+
+    /* centers the text in each div*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one {
+    background-color: purple;
+}
+
+.two {
+    background-color: rgb(98, 212, 250);
+}
+
+.three {
+    background-color: coral;
+}
+
+.four {
+    background-color: rgb(75, 253, 235);
+}
