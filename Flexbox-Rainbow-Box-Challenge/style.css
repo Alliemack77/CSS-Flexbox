@@ -15,7 +15,7 @@
 }
 
 .box {
-    padding: 1.5rem 2rem; 
+    padding: 1.5rem 2rem;
 }
 
 .one {
@@ -54,16 +54,16 @@
         flex-direction: row;
         flex-wrap: wrap;
     }
-    
-    .one, 
-    .two, 
-    .six, 
+
+    .one,
+    .two,
+    .six,
     .seven {
         flex: 100%;
     }
 
-    .three, 
-    .four, 
+    .three,
+    .four,
     .five {
         flex: 33%;
     }
@@ -72,21 +72,21 @@
 
 /* Desktop 801px + */
 @media screen and (min-width: 801px) {
-    
+
     .container {
         flex-direction: row;
         flex-wrap: wrap;
-    }
-    
-    .one, 
-    .two, 
-    .six, 
+    } 
+
+    .one,
+    .two,
+    .six,
     .seven {
         flex: 50%;
     }
 
-    .three, 
-    .four, 
+    .three,
+    .four,
     .five {
         flex: 33%;
     }
